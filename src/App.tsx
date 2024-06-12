@@ -62,7 +62,7 @@ const App = (): JSX.Element => {
             <TextInput
             maxLength={14}
             value={inputValue}
-            clearButtonMode='always' //only for iOS
+            // clearButtonMode='always' //it works only for iOS
             onChangeText={setInputValue}
             keyboardType='number-pad'
             placeholder='Enter amount in Rupees'
